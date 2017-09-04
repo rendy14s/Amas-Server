@@ -10,29 +10,31 @@
       "loopback/common/mixins",
       "loopback/server/mixins",
       "../common/mixins",
-      "./mixins"
+      "./mixins",
+      "../node_modules/@mean-expert/loopback-component-realtime/dist/mixins"
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "amas",
+    "public": false
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "amas",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "amas",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "amas",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "amas",
     "public": false
   }
 }
