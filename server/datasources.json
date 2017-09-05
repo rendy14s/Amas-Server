@@ -4,12 +4,12 @@
     "connector": "memory"
   },
   "amas": {
-    "name": "amas",
-    "connector": "mysql",
     "host": "103.16.199.131",
     "port": 3306,
     "database": "serverpr_amas",
     "password": "5erv4m4s",
+    "name": "amas",
+    "connector": "mysql",
     "user": "serverpr_amas"
-   }
+  }
 }

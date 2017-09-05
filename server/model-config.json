@@ -36,5 +36,15 @@
   "Role": {
     "dataSource": "amas",
     "public": false
+  },
+  "Amasmasterlicence": {
+    "dataSource": "amas",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Amasusercredential": {
+    "dataSource": "amas",
+    "public": true
   }
 }
